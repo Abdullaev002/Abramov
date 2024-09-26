@@ -4,19 +4,33 @@ import java.util.*;
 public class Task002 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+//
+//        Double x = scanner.nextDouble();
+//        Double y = scanner.nextDouble();
+//
+//
+//        Double a = x-y;
+//
+//        Double b=x*y;
+//
+//        Double c=1+b;
+//
+//        System.out.println("="+(a/c));
 
-        Double x = scanner.nextDouble();
-        Double y = scanner.nextDouble();
+                //////////////////////////////////////////////////////
 
+                double x = scanner.nextDouble();
 
-        Double a = x-y;
+                double y = scanner.nextDouble();
 
-        Double b=x*y;
+                System.out.println((x- y)  / (1 +(x * y)));
 
-        Double c=1+b;
+                //////////////////////////////////////////////////////
 
-        System.out.println("="+(a/c));
+                scanner.close();
 
+            }
+        }
         scanner.close();
     }
 }

@@ -1,26 +1,26 @@
- import java.io.*;
- import java.util.*;
+import java.util.Scanner;
 
+public class Task001 {
 
- public class Task004 {
-     public static void main(String[] args) {
-         Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
 
-         Double a = scanner.nextDouble();
-         Double b = scanner.nextDouble();
+        //////////////////////////////////////////////////////
 
-         System.out.println("a+b=" + (a + b));
-         System.out.println("a-b=" + (a - b));
-         System.out.println("b-a=" + (b - a));
-         System.out.println("a*b=" + (a * b));
+        double  a = scanner.nextDouble();
 
-         scanner.close();
-     }
- }
+        double b = scanner.nextDouble();
 
+        System.out.println("a+b="+(a+b));
+        System.out.println("a-b="+(a-b));
+        System.out.println("b-a="+(b-a));
+        System.out.println("a*b="+(a*b));
 
+        //////////////////////////////////////////////////////
 
-
+        scanner.close();
+    }
+}
 
 
 
