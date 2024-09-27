@@ -29,8 +29,5 @@ public class Task002 {
 
                 scanner.close();
 
-            }
-        }
-        scanner.close();
     }
 }
