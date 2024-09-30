@@ -24,6 +24,8 @@ public class Task005{
         System.out.println(Math.sqrt(Math.abs(a)*Math.abs(b)));
 
       ///////////////////////////////////////////////////////////
+
+        scanner.close();
     }
 }
 
