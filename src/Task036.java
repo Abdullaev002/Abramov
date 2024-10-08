@@ -15,7 +15,7 @@ class Task036{
      if( a < b && b < c ){
          System.out.println("True");
      } else {
-         System.out.println("baska jagdai");
+         System.out.println("False");
      }
 
 
