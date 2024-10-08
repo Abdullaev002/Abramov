@@ -1,35 +1,21 @@
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
-public class Ttt {
-    public static void main(String[] args) {
+public class Ttt{
+
+    public static void main(String []args){
+
         Scanner scanner = new Scanner(System.in);
-        /////////////////////////////////////////
 
+        double a = scanner.nextDouble();
 
-       double a = scanner.nextDouble();
+        double A;
 
-       double  b = scanner.nextDouble();
+        A = a * a * Math.sqrt(3) / 4;
 
-       System.out.println();
+        System.out.println(A);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        ////////////////////////////////////////
         scanner.close();
+
+
     }
 }
