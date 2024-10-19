@@ -23,7 +23,7 @@ public class Task178 {
 
 
         Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        int n = scanner.nextInt();7777777777777
         int k = 0;
         int A = 0;
         while( k < n ){
